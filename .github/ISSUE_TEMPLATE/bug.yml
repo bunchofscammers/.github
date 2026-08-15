@@ -1,0 +1,27 @@
+name: Bug report
+description: Report reproducible behavior that does not work as intended.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping us improve ShadyUI.
+  - type: input
+    id: repository
+    attributes:
+      label: Package or repository
+      placeholder: shady-ui, shady-react, shady-svelte, or shady-docs
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Include the expected behavior and reproduction steps.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Browser, framework, package version, and operating system

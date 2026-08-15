@@ -1,0 +1,13 @@
+{
+  "name": "bunchofscammers-community",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "ci": "npm run format:check"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
